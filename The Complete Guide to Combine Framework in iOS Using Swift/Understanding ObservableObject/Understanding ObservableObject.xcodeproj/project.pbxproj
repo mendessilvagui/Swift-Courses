@@ -15,6 +15,7 @@
 		03BD227126A74055000848B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BD227026A74055000848B2 /* Preview Assets.xcassets */; };
 		03BD227426A74055000848B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BD227226A74055000848B2 /* LaunchScreen.storyboard */; };
 		03BD227C26A7407E000848B2 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BD227B26A7407E000848B2 /* FancyTimer.swift */; };
+		03C07DDF26A830F500F68D2C /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C07DDE26A830F500F68D2C /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		03BD227326A74055000848B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BD227526A74055000848B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03BD227B26A7407E000848B2 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
+		03C07DDE26A830F500F68D2C /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				03BD226726A74054000848B2 /* AppDelegate.swift */,
 				03BD226926A74054000848B2 /* SceneDelegate.swift */,
 				03BD226B26A74054000848B2 /* ContentView.swift */,
+				03C07DDE26A830F500F68D2C /* FancyScoreView.swift */,
 				03BD226D26A74055000848B2 /* Assets.xcassets */,
 				03BD227226A74055000848B2 /* LaunchScreen.storyboard */,
 				03BD227526A74055000848B2 /* Info.plist */,
@@ -154,6 +157,7 @@
 				03BD226826A74054000848B2 /* AppDelegate.swift in Sources */,
 				03BD227C26A7407E000848B2 /* FancyTimer.swift in Sources */,
 				03BD226A26A74054000848B2 /* SceneDelegate.swift in Sources */,
+				03C07DDF26A830F500F68D2C /* FancyScoreView.swift in Sources */,
 				035F456426A741F1003012D8 /* UserSettings.swift in Sources */,
 				03BD226C26A74054000848B2 /* ContentView.swift in Sources */,
 			);

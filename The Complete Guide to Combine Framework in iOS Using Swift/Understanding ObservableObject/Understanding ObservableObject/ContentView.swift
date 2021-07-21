@@ -11,7 +11,9 @@ struct ContentView: View {
     
 //    @ObservedObject var fancyTimer = FancyTimer()
     
-    @ObservedObject var userSettings = UserSettings()
+//    @ObservedObject var userSettings = UserSettings()
+    
+    @EnvironmentObject var userSettings: UserSettings
     
     var body: some View {
 //        Text("\(self.fancyTimer.value)")
@@ -24,6 +26,8 @@ struct ContentView: View {
                 self.userSettings.score += 1
             }.padding()
         }
+        
+        FancyScoreView()
     }
 }
 
